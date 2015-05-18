@@ -111,7 +111,7 @@
         var title = "YouTube - " + songTitle;
         
         return {
-            song: song,
+            song: songTitle,
             title: title
         };
     }

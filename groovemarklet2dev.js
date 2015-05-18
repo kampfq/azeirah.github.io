@@ -107,7 +107,7 @@
     }
     
     function youtube() {
-        var song = $('#eow-title').text();
+        var song = $('#eow-title').title();
         var title = "YouTube - " + song;
         
         return {

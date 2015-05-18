@@ -56,7 +56,7 @@
     }
 
     function googleplay() {
-        var song = $("#playerSongTitle").text() + " - " + $("#playerSongTitle").next().text().split("-")[0],
+        var song = $("#player-song-title").text() + " - " + $("#player-song-title").next().text().split("-")[0],
             title = song + " - My Library - Google Play";
         if (song.length < 4) { // " - " is of length 3
             return false;
@@ -111,7 +111,7 @@
         var title = "YouTube - " + songTitle;
         
         return {
-            song: song,
+            song: songTitle,
             title: title
         };
     }

@@ -137,7 +137,8 @@
         "youtify": youtify,
         "play.google": googleplay,
         "deezer": deezer,
-        "youtube": youtube
+        "youtube": youtube,
+        "mixcloud": mixcloud
     };
 
     function check_song() {

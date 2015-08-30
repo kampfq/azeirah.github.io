@@ -116,6 +116,16 @@
         };
     }
 
+    function mixcloud() {
+        var song = $(".player-cloudcast-title").text() + " - " + $(".player-cloudcast-author-link").text();
+        var title = "Mixcloud - " + song;
+        
+        return {
+            song: song,
+            title: title
+        };
+    }
+
     var redirects = {
         "grooveshark": grooveshark,
         "plug": plug,
